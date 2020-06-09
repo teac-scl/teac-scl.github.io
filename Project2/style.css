@@ -1,0 +1,143 @@
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+    background-color: #FFEC8B; }
+ul {
+	margin: 0;
+	padding: 0;
+	
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+ol li{
+	font-size: 16px;
+	line-height: 1.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color: #8B4513;
+}
+header {
+	padding: 50px 0;
+	background-color: #8B4513;
+}
+h1,h2 {
+	color: #EEE8AA;
+	text-align: center;
+}
+nav {
+	background-color:#FFD700 ;
+	border-color: #FFD700;
+	min-height: 64px;
+	position: sticky;
+	top:0;
+}
+nav li {
+	float: left;
+	width: 100px;
+}
+nav a {
+	display: block;
+	color: #CD5C5C;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover {
+	color: #CD853F;
+	background-color: #FFD700;
+}
+p {
+	font-size: 16px;
+	line-height: 1.3em;
+    margin-top: 0.1em;
+    margin-bottom: 0;
+    color: #8B4513;
+}
+footer {
+		background-color: #EEE8AA;
+		color: #3D518C;
+		padding: 20px 0;
+		margin-top: 30px;
+}
+.container{
+	display:flex;
+	flex-direction:row;
+	border:1px dashed white;
+	background-color:#CD853F;
+	justify-content:space-around;
+	height:100px; 
+	align-items:center;
+	width:100%;
+	}
+.container li{
+	flex-grow:1;
+	margin-top:5px;
+	margin-bottom:2px;
+	margin-right:8px;
+	background-color:pink;
+	list-style-type:none;
+	font-size:25px;
+	width:250px;
+	height:100px;
+}
+.img{
+	width:200px;
+	height:150px;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.img-container li{
+	display:inline-block;
+	width:32%;
+	padding:10px;
+}
+.img-container{
+    text-align:center;
+	margin-top:20px;
+	width:100%;
+}
+.img-container img{
+	width:80%;
+	display:inline-block;
+	transition:.25s;
+}
+.img-container ul li{
+	list-style-type:none;
+}
+.inline-img{
+	width:250px;
+	display:inline-block;
+	border-radius:15px;
+	text-align:center;
+}
+.scale {
+    transition: 1s; 
+   }
+   .scale:hover {
+    transform: scale(1.2); 
+   }
+.video{
+	display: flex;
+	flex-grow:1;
+}  
+.topNubex {
+	position: fixed;
+	right: 35px;
+	bottom: 35px;
+	padding: 20px;
+	border:3px dashed violet;
+	background-color: #FFB6C1;
+	color:#4B088A;
+   } 
+.topNubex:hover{
+	background-color:#4B088A;
+	color:#ECCEF5;
+}
